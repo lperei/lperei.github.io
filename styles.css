@@ -78,3 +78,20 @@ li {
     border-radius: 25px;
     font-family: "Times New Roman", Times, serif;
 }
+.forms {
+    background-color: #1B1464;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -75px;
+    left: 700px;
+    font-size:200%;
+    width: 170px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a.form_button {
+    color: white;
+}
