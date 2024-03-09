@@ -61,6 +61,7 @@ li {
 }
 .soon {
     color: #28d3c8;
+    background: red;
     display: flex;
     justify-content: center;
     position: relative;
@@ -105,7 +106,6 @@ a.form_button {
     .soon {
         font-size:400%;
         top: 200px;
-        background: red;
     }
     .about {
         color: #28d3c8;
