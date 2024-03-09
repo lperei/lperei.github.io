@@ -105,6 +105,7 @@ a.form_button {
     .soon {
         font-size:400%;
         top: 200px;
+        background: red;
     }
     .about {
         color: #28d3c8;
