@@ -15,7 +15,9 @@ header .logo a {
     background-image: url("images/pereil_logo.png");
     background-size: 125px;
     background-repeat: no-repeat;
-    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-indent: -99999px;
     height: 150px;
     width: 150px;
@@ -94,4 +96,27 @@ li {
 }
 a.form_button {
     color: white;
+}
+
+@media screen and (max-width: 800px) {
+    li.links {
+        width: 20%
+    }
+    .soon {
+        font-size:400%;
+        top: 200px;
+    }
+    .about {
+        color: #28d3c8;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        font-size:350%;
+        width: 700px;
+        margin: 2% 0 0 10%;
+        padding: 20px 20px 20px 20px;
+        border-radius: 25px;
+        font-family: "Times New Roman", Times, serif;
+    }
+    
 }
