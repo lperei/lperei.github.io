@@ -107,6 +107,10 @@ a.form_button {
     .content {
         flex-direction: column;
     }
+    .smiley {
+        background-size: 55px;
+        top: 160px
+    }
     .about {
         font-size:250%;
         text-align: left;
